@@ -1,0 +1,107 @@
+h1, h3
+{
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+    padding-bottom: 10px;
+}
+h2
+{
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+p
+{
+  font-style: italic;  
+  text-align: center;
+}
+.first-picture, .second-picture {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.openning{
+    background: linear-gradient(to bottom, #62c1f0, #000000);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-text, .end
+{
+    background-color: #000000;
+    color: azure;
+}
+.title-rockets
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rocket
+{
+    transform: rotate(45deg);
+    height: 50px;
+    width: 50px;
+    margin-bottom: 40px;
+}
+.animations
+{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    row-gap: 2rem;
+}
+#musk
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#starship
+{
+    height: 150px;
+    width: 150px;
+    transform: rotate(30deg);
+}
+.gifs-container
+{
+    color: rgb(146, 98, 194);
+    align-content: center;
+    padding-bottom: 40px;
+}
+.gifs, .gif-text, .Buy-now
+{
+    display: flex;
+    justify-content: space-around;
+}
+.gifs img
+{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+}
+.best-sellers h2
+{
+    color: rgb(146, 98, 194);
+}
+#Buy, #mail, #spacex
+{
+    background: #ffffff;
+    border-radius: 5px;
+    color:  rgb(146, 98, 194);
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+}
+.links
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
